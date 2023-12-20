@@ -1,0 +1,12 @@
+.input {
+    border-radius: 5px;
+    background-color: rgb(255, 252, 252);
+}
+.button {
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
