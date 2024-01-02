@@ -1,4 +1,6 @@
 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-left: 13px;
+    margin-right: 70px;
 }
