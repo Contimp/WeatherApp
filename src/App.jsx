@@ -16,6 +16,7 @@ export default function App() {
     <div className={style.citiesContainer}>
     <div>
       <Card
+      principal
       max={Cairns.main.temp_max}
       min={Cairns.main.temp_min}
       name={Cairns.name}

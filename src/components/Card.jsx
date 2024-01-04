@@ -3,7 +3,7 @@ import style from "./Card.module.css";
 
 export default function Card(props) {
   return (
-    <div className={style.card}>
+    <div className={`${style.card} ${props.principal ? style.principal : ''}`}>
       <button className={style.button} onClick={props.onClose}>
         X
       </button>
@@ -19,7 +19,7 @@ export default function Card(props) {
         </div>
         <div>
       <img
-        className={style.img}
+        className={style.img} 
         src={`http://openweathermap.org/img/wn/${props.img}@2x.png`}
         alt="weather image"
       />
